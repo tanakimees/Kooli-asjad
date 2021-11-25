@@ -93,8 +93,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .center {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -106,8 +106,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .baseline {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -119,8 +119,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .flex-end {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -132,8 +132,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .flex-start {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -145,8 +145,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .right {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -158,8 +158,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .left {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -171,8 +171,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .space-around {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -184,8 +184,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .space-between {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -197,8 +197,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .space-evenly {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -210,8 +210,8 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 .stretch {
     width: 90%;
     background-color: dodgerblue;
-    padding-top: 0%;
-    transform: translate(5%,5%);
+    padding: 1%;
+    transform: translate(3%,5%);
     border-radius: 30px;
     border-style: solid;
     border-color: black;
@@ -222,4 +222,10 @@ a2:hover { text-decoration: none; text-decoration: underline; cursor: pointer;}
 
 .pics1 {
     flex-grow: 1;
+    max-height: 70px;
+}
+
+.pics {
+    max-width: 70px;
+    max-height: 70px;
 }
